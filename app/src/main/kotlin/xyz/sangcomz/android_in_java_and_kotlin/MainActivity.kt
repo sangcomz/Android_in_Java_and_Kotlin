@@ -10,8 +10,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        hello.setText("Hello, Kotlin")
 
-        hello.setText("Hello, world!") // Instead of findView(R.id.textView) as TextView
-//        print("Hello Kotlin");
+
+//        hello.setText("Hello, world!") // Instead of findView(R.id.textView) as TextView
+
+
     }
 }
