@@ -49,6 +49,10 @@ class BasicSyntaxActivity : AppCompatActivity() {
             println("While Loop :::: " + args[i++])
 
 
+        for (x in 1..5)
+            println(x)
+
+
     }
 
     fun sum(a: Int, b: Int): Int {
@@ -83,6 +87,7 @@ class BasicSyntaxActivity : AppCompatActivity() {
             else -> println("Unknown")
         }
     }
+
 
 
 }
